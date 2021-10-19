@@ -1,8 +1,7 @@
 ## asset_allocation_calculator
-I have multiple investment accounts and from the main page, I can see the list of my stocks across my accounts, but the list is missing the allocation percentage  
-For example: I invested in company XZY in 3 different accounts, and I want to see the percentage of XYZ in my portfolio.  
-I contacted the customer service today, and they said that feature is not avaiable (sadly).  
-I decide to write a simple utility to calculate the asset allocation percentage within my portfolio(s) and display the output to the screen.   
+I have multiple investment accounts (within the same broker) and from the dashboard, I can see the list of my stocks across my accounts group by stock symbol, but missing the allocation percentage  
+For example: I invested in company XZY in 3 different accounts, and I want to see the (total) percentage of XYZ in all of my accounts  
+I contacted the customer service, and they said that feature is not avaiable (sadly).  So I decide to write this simple utility to calculate the allocation percentage and simply print the output to the terminal screen.  
 
 To call:  
 ```
@@ -11,7 +10,7 @@ python allocation_report.py <csv_file>
 <csv_file>: full path to the csv file with these required columns: (other columns will not be used and will be ignored)
 * Symbol
 * Current Value
-Check the portfolio_example.csv file for more details
+*Check the portfolio_example.csv file for more details*
 
 #### Example output
 Symbol | Quantity | Current Value | Percentage
