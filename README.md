@@ -10,7 +10,8 @@ python allocation_report.py <csv_file>
 <csv_file>: full path to the csv file with these required columns: (other columns will not be used and will be ignored)
 * Symbol
 * Current Value
-*Check the portfolio_example.csv file for more details*
+
+*(See the portfolio_example.csv file)*
 
 #### Example output
 Symbol | Quantity | Current Value | Percentage
