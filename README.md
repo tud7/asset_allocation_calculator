@@ -5,7 +5,7 @@ I contacted the customer service, and they said that feature is not avaiable (sa
 
 To call:  
 ```
-python allocation_report.py <csv_file>
+`pwd`/dist/allocation_report <csv_file>
 ```
 <csv_file>: full path to the csv file with these required columns: (other columns will not be used and will be ignored)
 * Symbol
